@@ -13,7 +13,7 @@ import            Control.Monad.Trace
 import qualified  Data.ByteString.Char8 as BS
 import            Data.Monoid
 import            Data.Time
-import            Database.Redis hiding (MonadRedis)
+import            Database.Redis hiding (MonadRedis, liftRedis)
 import            System.IO
 
 class MonadIO m => MonadRedis m where

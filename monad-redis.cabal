@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                monad-redis
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            A (sane) Monad class for Redis, with MonadTrace support
 -- description:
 license:             AllRightsReserved
@@ -30,7 +30,7 @@ library
   build-depends:       base >=4.8 && <4.9,
                        bytestring,
                        exceptions >= 0.8,
-                       hedis >= 0.6,
+                       hedis >= 0.9,
                        monad-control >= 1.0,
                        monad-trace >= 0.1,
                        mtl >= 2.2,
