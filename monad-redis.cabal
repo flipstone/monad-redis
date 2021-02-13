@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                monad-redis
-version:             0.2.0.0
+version:             0.2.0.1
 synopsis:            A (sane) Monad class for Redis, with MonadTrace support
 -- description:
 license:             AllRightsReserved
@@ -27,7 +27,7 @@ library
                       TypeFamilies,
                       UndecidableInstances
   -- other-extensions:    
-  build-depends:       base >=4.8 && <4.9,
+  build-depends:       base >=4.8 && <4.13,
                        bytestring,
                        exceptions >= 0.8,
                        hedis >= 0.9,
