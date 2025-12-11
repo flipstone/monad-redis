@@ -5,11 +5,11 @@ name:                monad-redis
 version:             0.2.0.1
 synopsis:            A (sane) Monad class for Redis, with MonadTrace support
 -- description:
-license:             AllRightsReserved
+license:             MIT
 license-file:        LICENSE
 author:              Flipstone Technology Partners
-maintainer:          development@flipstone.com
--- copyright:
+maintainer:          maintainers@flipstone.com
+copyright:           2025 Flipstone Technology Partners
 category:            Database
 build-type:          Simple
 -- extra-source-files:
